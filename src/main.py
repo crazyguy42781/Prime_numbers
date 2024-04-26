@@ -7,13 +7,11 @@ import os
 import gmpy2
 from bitarray import bitarray
 
-# localy created imports
-
-
-
-
-
+# locally created imports
+from classes.sieve import PrimeSieve
 
 
 if __name__ == '__name__':
-    pass
+    bits = PrimeSieve(base=10, exp=5)
+    print(bits.bits[0:20])
+    print("hi")
