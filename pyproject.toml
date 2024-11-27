@@ -2,13 +2,12 @@
 name = "prime-numbers"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Adam Smith <liversmiles@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
 bitarray = "^2.9.2"
-gmpy2 = "^2.2.0a1"
 
 
 [build-system]
